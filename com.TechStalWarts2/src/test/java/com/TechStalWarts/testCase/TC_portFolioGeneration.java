@@ -20,6 +20,7 @@ public class TC_portFolioGeneration extends BaseClass1{
 		new LoginPage(driver).goToLoginWithUserNamePass().clearTExtField()
 		.setuserName(data.get("username")).setPass(data.get("password")).doLogin();
 		sleep();
+		System.out.println("-----");
 	}
 
 
