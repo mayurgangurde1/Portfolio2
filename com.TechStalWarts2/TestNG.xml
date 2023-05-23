@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InterviewTask_techStalWarts">
+
+<listeners>
+   <listener class-name="com.TechStalWarts.utilities.Reporting"/>
+   <listener class-name="com.TechStalWarts.testData.MethodInteceptor"/>
+</listeners>
+
+
+  <test name="Interview Test">
+      <classes>
+          <class name="com.TechStalWarts.testCase.TC_LogInTest"/>   
+          <class name="com.TechStalWarts.testCase.TC_portFolioGeneration"/>  
+          <class name="com.TechStalWarts.testCase.TC_Protect"/> 
+      </classes>
+  </test>
+ 
+</suite>
